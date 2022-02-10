@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "rbicon";
+  src: url("./fonts/seoes.eot");
+  src: url("./fonts/seoes.eot?#iefix") format("embedded-opentype"),
+       url("./fonts/seoes.woff") format("woff"),
+       url("./fonts/seoes.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="rbicon-"]:before, [class*=" rbicon-"]:before,
+[class^="rbicon-"]:after, [class*=" rbicon-"]:after {   
+  font-family: rbicon;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.rbicon-gamepad-controller:before { content: "\f100"; }
+.rbicon-telephone-auricular-with-cable:before { content: "\f101"; }
+.rbicon-winner-champion-trophy:before { content: "\f102"; }
+.rbicon-left-arrow-chevron:before { content: "\f103"; }
+.rbicon-fighting-weapon-target:before { content: "\f104"; }
+.rbicon-magnifying-glass:before { content: "\f105"; }
+.rbicon-delete:before { content: "\f106"; }
+.rbicon-check-mark-black-outline:before { content: "\f107"; }
+.rbicon-twitter-letter-logo:before { content: "\f108"; }
+.rbicon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f109"; }
+.rbicon-link-symbol:before { content: "\f10a"; }
+.rbicon-data-analytics-circular-graphic:before { content: "\f10b"; }
+.rbicon-chat-comment-oval-speech-bubble-with-text-lines:before { content: "\f10c"; }
+.rbicon-team:before { content: "\f10d"; }
+.rbicon-shopping-cart-silhouette:before { content: "\f10e"; }
+.rbicon-scale-in-balance:before { content: "\f10f"; }
+.rbicon-tick-inside-circle:before { content: "\f110"; }
+.rbicon-update-arrow:before { content: "\f111"; }
+.rbicon-message-closed-envelope:before { content: "\f112"; }
+.rbicon-global-service:before { content: "\f113"; }
+.rbicon-medium-size:before { content: "\f114"; }
+.rbicon-dart-board:before { content: "\f115"; }
+.rbicon-float:before { content: "\f116"; }
+.rbicon-favorite-place:before { content: "\f117"; }
+.rbicon-pie-chart:before { content: "\f118"; }
+.rbicon-meeting:before { content: "\f119"; }
+.rbicon-play-button:before { content: "\f11a"; }
+.rbicon-user:before { content: "\f11b"; }
+.rbicon-user-1:before { content: "\f11c"; }
+.rbicon-email:before { content: "\f11d"; }
+.rbicon-shopping-basket:before { content: "\f11e"; }
+.rbicon-info:before { content: "\f11f"; }
+.rbicon-like:before { content: "\f120"; }
+.rbicon-search:before { content: "\f121"; }
+.rbicon-app:before { content: "\f122"; }
+.rbicon-info-1:before { content: "\f123"; }
+.rbicon-presentation:before { content: "\f124"; }
+.rbicon-calendar:before { content: "\f125"; }
+.rbicon-video-player:before { content: "\f126"; }
+.rbicon-customer:before { content: "\f127"; }
+.rbicon-down-arrow:before { content: "\f128"; }
+.rbicon-left-arrow:before { content: "\f129"; }
+.rbicon-right-arrow:before { content: "\f12a"; }
+.rbicon-alert:before { content: "\f12b"; }
+.rbicon-promotion:before { content: "\f12c"; }
+.rbicon-analytics:before { content: "\f12d"; }
+.rbicon-link:before { content: "\f12e"; }
+.rbicon-networking:before { content: "\f12f"; }
+.rbicon-megaphone:before { content: "\f130"; }
+.rbicon-startup:before { content: "\f131"; }
+.rbicon-megaphone-1:before { content: "\f132"; }
+.rbicon-call:before { content: "\f133"; }
+.rbicon-facebook:before { content: "\f134"; }
+.rbicon-twitter:before { content: "\f135"; }
+.rbicon-youtube:before { content: "\f136"; }
+.rbicon-user-2:before { content: "\f137"; }
+.rbicon-compass:before { content: "\f138"; }
+.rbicon-case:before { content: "\f139"; }
+.rbicon-newspaper:before { content: "\f13a"; }
+.rbicon-app-store:before { content: "\f13b"; }
+.rbicon-information:before { content: "\f13c"; }
+.rbicon-guarantee:before { content: "\f13d"; }
+.rbicon-telegram:before { content: "\f13e"; }
+.rbicon-design:before { content: "\f13f"; }
+.rbicon-usability:before { content: "\f140"; }
+.rbicon-launch:before { content: "\f141"; }
+.rbicon-heart:before { content: "\f142"; }
+.rbicon-rocket-3:before { content: "\f143"; }
+.rbicon-c:before { content: "\f144"; }
+.rbicon-link-1:before { content: "\f145"; }
+.rbicon-award:before { content: "\f146"; }
+.rbicon-statistics:before { content: "\f147"; }
+.rbicon-vision:before { content: "\f148"; }
+.rbicon-smartphone:before { content: "\f149"; }
+.rbicon-earnings:before { content: "\f14a"; }
+.rbicon-statistics-1:before { content: "\f14b"; }
+.rbicon-globe-grid:before { content: "\f14c"; }
+.rbicon-crown:before { content: "\f14d"; }
+.rbicon-news:before { content: "\f14e"; }
+.rbicon-commentary:before { content: "\f14f"; }
+.rbicon-label:before { content: "\f150"; }
+.rbicon-market:before { content: "\f151"; }
+.rbicon-briefcase:before { content: "\f152"; }
+.rbicon-newspaper-1:before { content: "\f153"; }
+.rbicon-document:before { content: "\f154"; }
+.rbicon-shield:before { content: "\f155"; }
+.rbicon-diamond:before { content: "\f156"; }
+.rbicon-group:before { content: "\f157"; }
+.rbicon-folder:before { content: "\f158"; }
+.rbicon-usb:before { content: "\f159"; }
+.rbicon-agreement:before { content: "\f15a"; }
+.rbicon-networking-1:before { content: "\f15b"; }
+.rbicon-mouse:before { content: "\f15c"; }
+.rbicon-analytics-1:before { content: "\f15d"; }
+.rbicon-graphic-design:before { content: "\f15e"; }
+.rbicon-linkedin:before { content: "\f15f"; }
+.rbicon-mission:before { content: "\f160"; }
+.rbicon-trophy:before { content: "\f161"; }
+.rbicon-group-chat:before { content: "\f162"; }
+.rbicon-presentation-1:before { content: "\f163"; }
+.rbicon-strategy:before { content: "\f164"; }
+.rbicon-folder-1:before { content: "\f165"; }
+.rbicon-globe:before { content: "\f166"; }
+.rbicon-graph-1:before { content: "\f167"; }
+.rbicon-browser:before { content: "\f168"; }
+.rbicon-hierarchical-structure:before { content: "\f169"; }
+.rbicon-ladder:before { content: "\f16a"; }
+.rbicon-location-pin:before { content: "\f16b"; }
+.rbicon-social-media:before { content: "\f16c"; }
+.rbicon-keyword:before { content: "\f16d"; }
+.rbicon-product:before { content: "\f16e"; }
+.rbicon-web-development:before { content: "\f16f"; }
+.rbicon-purchase:before { content: "\f170"; }
+.rbicon-link-2:before { content: "\f171"; }
+.rbicon-dialogue:before { content: "\f172"; }
+.rbicon-justice:before { content: "\f173"; }
+.rbicon-justice-1:before { content: "\f174"; }
+.rbicon-business-and-finance:before { content: "\f175"; }
+.rbicon-file:before { content: "\f180"; }
+.rbicon-speech-bubble:before { content: "\f181"; }
+.rbicon-flash-drive:before { content: "\f182"; }
+.rbicon-analysis:before { content: "\f183"; }
+.rbicon-data:before { content: "\f184"; }
+.rbicon-social-media:before { content: "\f185"; }
+.rbicon-startup-a:before { content: "\f186"; }
+.rbicon-presentation:before { content: "\f187"; }
+.rbicon-promotion:before { content: "\f188"; }
+.rbicon-security:before { content: "\f189"; }
+.rbicon-trophy:before { content: "\f18A"; }
+.rbicon-research:before { content: "\f18B"; }
+.rbicon-target:before { content: "\f18C"; }
+.rbicon-customer-review:before { content: "\f18D"; }
+.rbicon-files-and-folders:before { content: "\f18E"; }
+.rbicon-online:before { content: "\f18F"; }
+.rbicon-target-1:before { content: "\f190"; }
+.rbicon-laptop:before { content: "\f191"; }
+.rbicon-unlink:before { content: "\f192"; }
+.rbicon-analysis-1:before { content: "\f193"; }
+.rbicon-bullhorn:before { content: "\f194"; }
+.rbicon-banner:before { content: "\f195"; }
+.rbicon-tactics:before { content: "\f196"; }
+.rbicon-analytics:before { content: "\f197"; }
+.rbicon-bar-chart:before { content: "\f198"; }
+.rbicon-feature:before { content: "\f199"; }
+.rbicon-keyword:before { content: "\f19A"; }
+.rbicon-site:before { content: "\f19B"; }
+.rbicon-computer:before { content: "\f19C"; }
+.rbicon-business:before { content: "\f19D"; }
+.rbicon-target-2:before { content: "\f19E"; }
+.rbicon-goal:before { content: "\f19F"; }
+.rbicon-trophy-1:before { content: "\f200"; }
+.rbicon-binoculars:before { content: "\f201"; }
+.rbicon-smartphone:before { content: "\f202"; }
+.rbicon-digital-marketing:before { content: "\f203"; }
+.rbicon-motivation:before { content: "\f204"; }

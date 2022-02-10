@@ -1,0 +1,118 @@
+.splc-pro-notice {
+	padding: 25px;
+}
+
+.splc-pro-notice .splc-text {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#menu-posts-sp_logo_carousel .wp-menu-image img {
+    width: 16px;
+    height: 16px;
+}
+
+.sp-logo-carousel-logo-list{
+    height: 50px;
+    width: auto;
+}
+
+/* Admin review notice*/
+#sp-lcfree-review-notice {
+    padding:15px 15px 15px 0;
+    background-color:#fff;
+    border-radius:3px;
+    margin:20px 20px 0 0
+}
+#sp-lcfree-review-notice .sp-lcfree-plugin-icon {
+    width:125px;
+    float:left;
+    line-height:90px;
+    text-align:center;
+}
+#sp-lcfree-review-notice .sp-lcfree-plugin-icon img {
+    max-width:83px;
+    vertical-align:middle;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text {
+    overflow:hidden;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text h3 {
+    font-size:24px;
+    margin:0 0 5px;
+    font-weight:400;
+    line-height:1;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text p {
+    margin:10px 0 10px 0;
+    font-size:13px;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text p.sp-lcfree-review-actions {
+    margin:10px 0 2px 0;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text .sp-lcfree-review-actions a {
+    text-decoration:none;
+    margin-right:8px;
+    color:#63a37b;
+    display:inline-block;
+    position:relative;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text .sp-lcfree-review-actions a span {
+    padding-right:2px;
+}
+#sp-lcfree-review-notice .sp-lcfree-notice-text .sp-lcfree-review-actions a.button {
+    color:#fff;
+}
+
+.lc-after-copy-text {
+  bottom: 0;
+  opacity: 0;
+  z-index: 9999999;
+  position: fixed;
+  width: 230px;
+  left: 180px;
+  text-align: center;
+  padding: 15px 15px;
+  line-height: 15px;
+  color: #fff;
+  border-radius: 3px;
+  background: #32373C;
+  border: 1px solid #32373C;
+}
+.lc-after-copy-text .fa-check-circle {
+    font-size: 14px;
+    margin-right: 2px;
+    color: #5db62e
+  }
+
+/* Live preview */
+.post-type-sp_lc_shortcodes #splcp-show-preview {
+    position: fixed;
+    right: 144px;
+    bottom: 30px;
+    z-index: 1001;
+    width: 155px;
+    text-align: center;
+    padding: 10px 0px;
+    background: #54b154;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin: 0;
+    box-sizing: border-box;
+    border-color: #44a944;
+    overflow: hidden;
+}
+
+.post-type-sp_logo_carousel #splcp-show-preview{
+    display: none;
+}
+
+#splcp_live_preview .handle-order-higher,
+#splcp_live_preview .handle-order-lower{
+    display: none;
+}

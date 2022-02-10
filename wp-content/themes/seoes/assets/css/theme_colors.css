@@ -1,0 +1,230 @@
+/*========================================================
+====================== PRIMARY COLOR =====================
+========================================================*/
+h1,.h1, h2,.h2, h3,.h3, h4,.h4, h5,.h5, h6,.h6, a, blockquote, label,
+.rb_button.empty_default,
+.rb_button.empty_reversed,
+.rb-widget .search-form .label:after,
+.rb-widget.rb-recent-posts a,
+legend,
+.rb-widget .calendar_wrap table caption,
+.table-size-guide td,
+.rb-widget .custom-widget-info i,
+.rb_carousel:hover .slick-arrow,
+.search-form .label .search-field,
+.rb-widget ul li.chosen a,
+.rb_presentation_module .presentation_triggers .presentation_trigger.active,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs .vc_tta-tabs-list li > a,
+.rb-widget .search-form .label .search-submit,
+.rb-widget .recentcomments span,
+.main-content-inner.has_sb .sidebar .close_sidebar,
+.comment-body .comment-meta .comment-admin,
+.blog .blog-readmore-wrap .blog-readmore.simple,
+.search .blog-readmore-wrap .blog-readmore.simple,
+.post-meta-wrapper,
+.post-meta-wrapper a,
+.main_member_info .text-information *,
+.portfolio-single-content .portfolio-content-wrapper .aside-part .label
+{ color: @@primary; }
+
+.body-overlay,
+.table-size-guide th
+{ background-color: @@primary; }
+
+blockquote,
+.sidebar_trigger,
+.rb_textmodule.border_on_hover:before,
+.rb-widget ul li.chosen a,
+.rb-widget ul li.chosen:after
+{ border-color: @@primary; }
+
+/*========================================================
+===================== SECONDARY COLOR ====================
+========================================================*/
+ul li:before,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-o-all-clickable .vc_tta-controls-icon,
+.rb-widget .recentcomments span:before,
+.comment-body .comment-buttons a,
+.single-content-title .cancel-reply a,
+.required,
+.blog .blog-readmore-wrap .blog-readmore:after,
+.search .blog-readmore-wrap .blog-readmore:after,
+.rb_our_team_module .rb_team_member .information_wrapper .meta,
+.rb_our_team_module .rb_team_member .information_wrapper .phone,
+.rb_our_team_module .rb_team_member .information_wrapper .email,
+.rb_footer_template a,
+.site-footer a,
+.price,
+.price ins,
+.sub-menu-trigger:before,
+.site-header-mobile .menu-box .current-menu-item > a,
+.site-header-mobile .menu-box .current-item-parent > a
+{ color: @@secondary; }
+
+.rb-widget caption:before, 
+.rb-widget .widget-title:before,
+.upsells.products > h2:before, .upsells.products > h2:after,
+.related.products > h2:before, .related.products > h2:after,
+.single-content-title:before, .single-content-title:after,
+.menu-main-container.header_menu > ul > .menu-item > a:before,
+body.wpb-js-composer .vc_tta.vc_general.vc_tta-o-all-clickable .vc_tta-panel.vc_active,
+body.wpb-js-composer div[data-vc-action="collapse"] .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.blog.layout_small .post-author:before,
+.portfolio-single-content .social-share:before,
+.rb_portfolio_module .rb_portfolio_items .rb_portfolio_item .text_info .h5:after,
+.header_icons .mini-cart .woo_mini-count > span,
+.rb-widget .price_slider_wrapper .price_slider .ui-slider-handle,
+.rb-widget .price_slider_wrapper .price_slider .ui-slider-range,
+ul .menu-item-object-rb-megamenu .sub-menu .rb_megamenu_item .widgettitle:before,
+.rb-widget.rb-about .name:before,
+.post-meta-wrapper:before,
+.post-password-form input[type='submit'],
+.main_member_info:before
+{ background-color: @@secondary; }
+
+.rb_icon_preloader:after,
+.rb-widget .search-form .label input,
+body.wpb-js-composer .vc_tta.vc_general .vc_tta-panel,
+.slick-dots li.slick-active button,
+.woocommerce.single .content-area .site-main > .type-product .woocommerce-tabs .tabs li.active a,
+.post-password-form input[type='submit']
+{ border-color: @@secondary; }
+
+.rb_icon_preloader:after
+{ border-color: @@secondary transparent @@secondary transparent; }
+
+/*========================================================
+================= LINK/QUOTE POSTS COLOR =================
+========================================================*/
+.search .post.format-quote .post-media .media-alternate, 
+.archive .post.format-quote .post-media .media-alternate, 
+.blog .post.format-quote .post-media .media-alternate{
+	background: -webkit-linear-gradient(-10deg, @@button_gradient_2, @@button_gradient_1);
+    background: linear-gradient(-10deg, @@button_gradient_2, @@button_gradient_1);
+}
+.search .post.format-link .post-media .media-alternate, 
+.archive .post.format-link .post-media .media-alternate, 
+.blog .post.format-link .post-media .media-alternate{
+	background: -webkit-linear-gradient(-10deg, @@button_hover_gradient_2, @@button_hover_gradient_1);
+    background: linear-gradient(-10deg, @@button_hover_gradient_2, @@button_hover_gradient_1);
+}
+
+/*========================================================
+====================== BUTTONS COLOR =====================
+========================================================*/ 
+.rb_button.simple{
+	color: @@primary;
+}
+.rb_button.simple:after{
+	color: @@secondary;
+}
+
+.rb_button,
+a.showcoupon,
+.next.page-numbers,
+.prev.page-numbers,
+.comment-form .submit,
+.added_to_cart,
+.woo_mini_cart .button,
+.woocommerce .button,
+.rb_woo_modal_content .button{
+	background-color: @@secondary; 
+	border-color: @@secondary; 
+}
+
+div.wpforms-container-full.wpforms-container .wpforms-form button[type=submit]{
+	background-color: @@secondary !important;
+	border-color: @@secondary !important;
+}
+
+/*========================================================
+===================== BACKGROUND COLOR ====================
+========================================================*/
+.toggle-content .hidden,
+.site-content,
+.rb_rev_slider,
+.before_footer_shortcode
+{ background-color: @@background; }
+
+/*========================================================
+==================== ONLY DESKTOP COLORS =================
+========================================================*/
+@media 
+	screen and (min-width: 1367px), /*Disable this styles for iPad Pro 1024-1366*/
+	screen and (min-width: 1200px) and (any-hover: hover), /*Check, is device a desktop (Not working on IE & FireFox)*/
+	screen and (min-width: 1200px) and (min--moz-device-pixel-ratio:0), /*Check, is device a desktop with firefox*/
+	screen and (min-width: 1200px) and (-ms-high-contrast: none), /*Check, is device a desktop with IE 10 or above*/
+	screen and (min-width: 1200px) and (-ms-high-contrast: active) /*Check, is device a desktop with IE 10 or below*/
+{
+
+/*==================== PRIMARY COLOR ===================*/
+.rb_button.empty_default:hover,
+.rb_button.empty_reversed:hover,
+.post-nav-link a:hover,
+.menu-main-container.header_menu > ul .sub-menu li a:hover,
+.menu-main-container.header_menu > ul .sub-menu li a.active,
+aside a:hover,
+.rb_custom_carousel .slick-arrow:hover,
+.rb_footer_template a:hover,
+.site-footer a:hover,
+.rb_presentation_module .presentation_triggers .presentation_trigger:hover,
+.portfolio-single-content .portfolio-content-wrapper .aside-part a:hover,
+.post-password-form input[type='submit']:hover
+{ color: @@primary; }
+
+.wp-block-ugb-image-box.rb_image_1 .ugb-image-box__item:hover .ugb-image-box__content,
+.rb-widget.filter_size ul li a:hover
+{ border-color: @@primary; }
+
+/*=================== SECONDARY COLOR ==================*/
+.rb-widget .search-form .label .search-submit:hover,
+.rb-widget.widget_archive ul li:hover > a, 
+.rb-widget.widget_categories ul li:hover > a, 
+.rb-widget.widget_meta ul li:hover > a, 
+.rb-widget.widget_pages ul li:hover > a, 
+.rb-widget.widget_nav_menu ul li:hover > a
+{ color: @@secondary; }
+
+.rb-widget.widget_archive ul li:hover:before,
+.rb-widget.widget_categories ul li:hover:before,
+.rb-widget.widget_meta ul li:hover:before,
+.rb-widget.widget_pages ul li:hover:before,
+.rb-widget.widget_nav_menu ul li:hover:before,
+.rb-widget .tagcloud a:hover
+{ background-color: @@secondary; }
+
+/*========================================================
+====================== BUTTONS COLOR =====================
+========================================================*/ 
+.rb_button:hover,
+a.showcoupon:hover,
+.next.page-numbers:hover,
+.prev.page-numbers:hover,
+.comment-form .submit:hover,
+.added_to_cart:hover,
+.woo_mini_cart .button:hover,
+.woocommerce .button:hover,
+.rb_woo_modal_content .button:hover{
+	color: @@primary;
+}
+div.wpforms-container-full.wpforms-container .wpforms-form button[type=submit]:hover{
+	color: @@primary !important;
+}
+
+div.wpforms-container-full.wpforms-container .wpforms-form button[type=submit]:hover{
+	border-color: @@secondary;
+}
+
+/*=================== BACKGROUND COLOR =================*/
+
+}
+
+/*========================================================
+==================== ONLY TABLETS COLORS =================
+========================================================*/
+@media 
+	screen and (max-width: 1199px), /*Check, is device a tablet*/
+	screen and (max-width: 1366px) and (any-hover: none) /*Enable this styles for iPad Pro 1024-1366*/
+{
+
+}

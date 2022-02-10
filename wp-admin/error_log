@@ -1,0 +1,11 @@
+[09-Feb-2022 17:53:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php on line 820
+[09-Feb-2022 17:53:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php:1447
+Stack trace:
+#0 /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php(1285): WP_RB_Demo_Import->fetch_remote_file('https://seoes.r...', Array)
+#1 /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php(1115): WP_RB_Demo_Import->process_attachment(Array, 'https://seoes.r...')
+#2 /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php(449): WP_RB_Demo_Import->process_posts()
+#3 /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/rb-demo-importer.php(59): WP_RB_Demo_Import->import('/home1/rakeshm/...', Array, '1')
+#4 /home1/rakeshm/dt.teqso.studio/wp-includes/class-wp-hook.php(286): rb_imp_run('')
+#5 /home1/rakeshm/dt.teqso.studio/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /home1/rakeshm/dt.teqso.studio/wp-includes/plugin.php(465): WP_Hook->do_action in /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php on line 1447
+[09-Feb-2022 17:53:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/rakeshm/dt.teqso.studio/wp-content/plugins/rb-demo-importer/importer.php on line 820
